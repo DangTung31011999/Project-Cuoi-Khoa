@@ -1,0 +1,104 @@
+
+.page__content__header{
+    padding-top: 20px;
+    text-align: center;
+}
+.page__content__header ul li{
+    font-weight: bold;
+    display: inline-block;
+}
+.page__content__header ul li{
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 40px;
+}
+.page__content__header ul li:first-child{
+    padding-left: 0;
+}
+.page__menu__tittle{
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    padding-left: 15px;
+}
+.page__menu__items{
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-top: 20px;
+}
+.page__menu__items h3{
+    font-weight: bold;
+}
+.count{
+    float: right;
+}
+.page__menu__items ul{
+    border-bottom: silver 1px solid;
+}
+.page__menu__items ul li {
+    font-size: 13px;
+    color: #6e6e6e;
+    padding: 5px 0;
+}
+.page__menu__items ul li a{
+    font-size: 13px;
+    color: #6e6e6e;
+}
+.page__menu__items ul li a:hover{
+    color: #ff8c00;
+}
+.childent{
+    padding-left: 15px;
+    border-bottom: none !important;
+}
+.submit{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: black 1px solid;
+}
+.submit:hover{  
+    border-color: #ff8c00;
+    color: #ff8c00;
+}
+.page__item{
+    position: relative;
+}
+.page__item__img{
+    position: relative;
+}
+.img__before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.page__item:hover .img__before{
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.page__item__img__infor h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.page__item__img__infor p{
+    text-align: center;
+}
+.page__items_chung{
+    display: flex;
+    flex-wrap: wrap;
+}
+.page__number{
+    border-top: silver 1px solid;
+    padding: 20px 0;
+    text-align: center;
+}
+.page__number a {
+    margin: 0 5px;
+    font-size: 14px;
+}
+.footer__page__chung{
+    margin-top: 0;
+}

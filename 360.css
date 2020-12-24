@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.4s ease;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+    color: black ;
+}
+/* Nội Dung*/
+main{
+    margin-top: 102px;
+}
+a:hover{
+    color: #ff8c00;
+}
+.page__content img{
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #b6b6b6;
+}
+.page__content img:hover{
+  transform: scale(1.1);
+  transition: all 1.5s ease;
+  box-shadow: none;
+}
+
+hr{
+    margin-top: 38px;
+}
+.label h3 p {
+    display: block;
+    border-bottom: black 1px solid;
+}
+
+.item_tinmoi_content{
+    font-size: 15px;
+}
+.item_tinmoi_content h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.item__tinmoi_anh img{
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #b6b6b6;
+}
+.item__tinmoi_anh img:hover{
+    transform: scale(0.9);
+    transition: all 1.5s ease; 
+    box-shadow: none;
+}
+
+/*Footer*/
+footer{
+    background-color: #252525;
+    margin-top: 70px;
+}
+.footer__item{
+    margin-top: 40px;
+}
+.footer__item h3{
+    color: #ff8c00;
+    font-size: 14px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.footer__item ul li a{
+    color: #b6b6b6;
+    line-height: 32px;
+    display: block;
+    font-size: 13px;
+}
+.footer__item ul li a:hover{
+    color: #ff8c00;
+    transform: translateX(10px);
+    transition: all 1s ease;
+}
+.img-dia-chi{
+    height: 51px;
+    width: 51px;
+}
+.menu-dia-chi p{
+    color: #b6b6b6;
+    display: block;
+    font-size: 13px;
+}
+.menu-dia-chi a {
+    color: #b6b6b6;
+}
+.menu-dia-chi a:hover {
+    color: #ff8c00;
+}
+
+/* nav*/
+.nav__menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+.nav__menu_all{
+    padding: 20px 60px;
+}
+.nav__menu_all ul li a {
+    font-size: 15px;
+    color: black !important;
+    font-weight: bold;
+}
+.nav__menu_all ul li a:hover {
+
+    color:#ff8c00 !important;
+
+}
+.nav_menu_ul li{
+    padding-left: 30px;
+}
+.input__find{
+    border-radius: 50px;
+}
+.btn__find{
+    border: none;
+    background-image: url(./anh/a.PNG);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+@media Screen and (max-width:991px){
+    .nav__menu{
+        background-color: #ff8c00;
+    }
+    .nav__menu_all ul li a:hover{
+        color: white !important;
+    }
+    .menu__button{
+        border-color: white !important;
+    }
+}

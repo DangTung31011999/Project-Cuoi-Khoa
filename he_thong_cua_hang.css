@@ -1,0 +1,49 @@
+.header__cuahang{
+    padding: 30px 0 0 0;
+}
+.header__cuahang h1 {
+    color: #252525;
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: black 1px solid;
+    margin-bottom: 20px;
+}
+.new__prod__tittle h3{
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 15px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.item-col{
+    display: flex;
+    margin-top: 15px;
+}
+.prod__img{
+    width: 30%;
+}
+.prod__content{
+    width: 70%;
+    font-size: 13px;
+    margin: 0 0 0 10px;
+    font-weight: bold;
+    
+}
+.prod__content span{
+    color: #ff8c00;
+}
+.list__cua_hang h2 {
+    font-weight: bold;
+    font-size: 13;
+}
+.list__cua_hang h2 {
+    font-size: 12;
+}
+.list__cua_hang p {
+    font-size: 12px;
+}

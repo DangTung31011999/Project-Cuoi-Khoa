@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page MUA QUẦN </title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./360.css">
+    <link rel="stylesheet" href="./page_mua.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="poper.min.js"></script>
+    <script src="bootstrap.min.js"></script> 
+</head>
+<body>
+  <div class="nav__menu">
+    <nav class="navbar navbar-expand-lg navbar-light nav__menu_all">
+        <a class="navbar-brand" href="./360.html" title="..."><img src="./anh/logo.png" alt="..." width="100px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto nav_menu_ul">
+            <li class="nav-item active">
+              <a class="nav-link" href="./360.html" title="...">TRANG CHỦ</a> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./page_new.html" title="...">NEW</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./page_sale.html" title="...">SALE</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="./page_ao.html" title="...">ÁO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./page_quan.html" title="...">QUẦN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./page_giaydep.html" title="...">GIÀY - DÉP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./bo_suu_tap.html" title="...">BỘ SƯU TẬP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./tuyen_dung.html" title="...">TUYỂN DỤNG</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2 input__find" type="search" placeholder="Tìm sản phẩm">
+            <button class="btn btn-outline-success my-2 my-sm-0 btn__find" type="submit"></button>
+          </form>
+        </div>
+    </nav>
+  </div>  
+  <main class="page__mua__chung">
+    <div class=" container">
+      <div class="page__mua__title">
+        <a href="./360.html" title="Home">Home</a>
+        <span>  >  </span>
+        <a href="./page_ao.html" title="...">QUẦN</a>
+        <span>  >  QUẦN JEANS NAM QJDTK060 </span>
+      </div>
+      <div class=" row">
+        <div class=" col-md-6 col-sm-12 mt-3">
+            <div class=" img__mua">
+                <div class="img__mua__show" style="height: 500px;">
+                    <img id="img__big" src="./anh/quan2.jpg" alt="..." width="100%">
+                </div>
+                <div class="row">
+                    <div class="img__mua__small">
+                        <div class=" col-sm-4  img__small" >
+                            <img class="img__small__show" src="./anh/mua_quan1.jpg" width="100%" alt="...">
+                        </div>
+                        <div  class=" col-sm-4 img__small">
+                            <img class="img__small__show" src="./anh/mua_quan2.jpg" width="100%" alt="...">
+                        </div>
+                        <div class=" col-sm-4 img__small">
+                            <img class="img__small__show" src="./anh/mua_quan3.jpg" width="100%" alt="...">
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <script>
+                $(document).ready(function() {
+                $('.img__small__show').click(function(){
+                    console.log($(this)[0].src);
+                    var imgsrc=$(this)[0].src;
+                    $('#img__big')[0].src=imgsrc;
+                });
+            });
+      </script>
+        </div>
+         <div class=" col-md-6 col-sm-12 mt-3">
+            <div class="infor__mua">
+                <h1>QUẦN JEANS NAM QJDTK060</h1>
+                <p class="price">
+                    <span> Giá: </span> <span> 290.000 đ</span>
+                </p>
+                <p class="tinhtrang">
+                    <span>Tình trạng:</span> <span>Còn hàng</span>
+                </p>
+                <a class="hotro" href="#" title="...">Hỗ Trợ</a>
+                <form action="" method="POST">
+                    <div class="chon__mua">
+                        <div class="co">
+                            <label for="">Cỡ:&nbsp;&nbsp;&nbsp;</label>
+                            <span class=" value value__co selected__co" title="28">28</span>
+                            <span class=" value value__co" title="29">29</span>
+                            <span class=" value value__co" title="30">30</span>
+                            <span class=" value value__co" title="31">31</span>
+                            <span class=" value value__co" title="32">32</span>
+                            <span class=" value value__co" title="33">33</span>
+                            <span class=" value value__co" title="34">34</span>
+                        </div>
+                        
+                        <div class="mau">
+                            <label for="">Màu:</label>
+                            <span class="value value__mau selected__mau" title="Trắng">Trắng</span>
+                            <span class="value value__mau" title="Xanh">Xanh</span>
+                            <span class="value value__mau" title="Đen">Đen</span>
+                            <span class="value value__mau" title="Tím">Tím</span>
+                        </div>
+                        
+                        <div class="mua__hang">
+                            <label for="">Chọn số lượng:</label>
+                            <input class="input__sl" name="so_luong" type="number" step="1" min="1" value="1" size="5">
+                            <button type="button" id="submit" class="submit">Mua Hàng</button>
+                        </div>  
+                    </div>
+                </form>
+                <script>
+                    $(document).ready(function(){
+                        $('.value__co').click(function(){
+                            $('.value__co').removeClass('selected__co');
+                            $(this).toggleClass('selected__co');
+                            
+                        });
+                    });
+                </script>
+                <script>
+                    $(document).ready(function(){
+                        $('.value__mau').click(function(){
+                            $('.value__mau').removeClass('selected__mau');
+                            $(this).toggleClass('selected__mau');
+                            
+                        });
+                    });
+                </script>
+            </div>
+         </div>
+      </div>
+    </div>
+    <div class=" container">
+      <div class=" row">
+          <div class=" col-12 mt-5 infor__sanpham">
+                <div class="infor__sanpham__find">
+                    <ul class="tags">
+                        <li data-tags="mota" class="infor__chung">MÔ TẢ</li>
+                        <li data-tags="thongtin" class="infor__chung">THÔNG TIN</li>
+                        <li data-tags="danhgia" class="infor__chung" >ĐÁNH GIÁ (0)</li>
+                    </ul>
+                </div>
+                <div class=" infor__sanpham__content">
+                    <div id="mota" class="active" >
+                        <p>
+                        – Vải cao cấp, khả năng thấm hút mồ hôi cực tốt<br> 
+                        – Màu sắc: trắng, xanh, đen, tím<br> – Có đầy đủ các size: 28-29-30-31-32-33-34<br>
+                        – Sản phẩm đã có mặt ở toàn bộ các cửa hàng trên hệ thống và &nbsp;<strong>Shopee</strong>.<br> <br>
+                        <a href="#" title="..."><img src="https://cf.shopee.vn/file/d0a531148f265973be3c274237e6252d"></a>
+                        </p>
+                    </div>
+                    <div id="thongtin" >
+                        <table border="1px" width="100%" style="text-align: center;" >
+                            <tbody>
+                                <tr >
+                                    <th style="text-transform: uppercase;" >Cỡ</th>
+                                    <td ><p style="padding: 8px 0; margin: 0; font-style: italic;">28-29-30-31-32-33-34</p></td>
+                                </tr>
+                                <tr style="background-color: silver;" >
+                                    <th  style="text-transform: uppercase;">Màu</th>
+                                    <td ><p style="padding: 8px 0; margin: 0; font-style: italic;">Trắng, Xanh, Đen, Tím</p></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="danhgia" class="danhgia" >
+                        <h2 class="tittle">ĐÁNH GIÁ</h2>
+                        <p>Chưa có đánh giá nào</p>
+                        <h3 class="tittle">HÃY LÀ NGƯỜI ĐẦU TIÊN ĐÁNH GIÁ SẢN PHẨM “QUẦN JEANS NAM QJDTK060”</h3>
+                        <form action="#" method="POST">
+                            <p></p>
+                            <label for="nhanxet">Nhận xét</label>
+                            <textarea name="nhanxet" id="nhanxet" cols="80" rows="3" style="width:100%"></textarea>
+                            </p>
+                            <p>
+                                <label for="ten">Tên *</label>
+                                <input type="text" id="ten" required="required" style="width:100%">
+                            </p>
+                            <p>
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" required="required" style="width:100%">
+                            </p>
+                            <button type="submit">Gửi Đi</button>
+                        </form>
+                    </div>
+                </div>
+                <script>
+                    $(document).ready(function(){
+                        $('.tags li').click(function(){
+                            var tags=$(this).data().tags;
+                            $('.infor__sanpham__content div').removeClass('active');
+                            $('#'+tags).addClass('active');
+                        });
+                    });
+                </script>
+          </div>
+      </div>
+    </div> 
+    <div class=" container">
+        <div class="sanpham__lienquan">
+            <h1>SẢN PHẨM LIÊN QUAN</h1>
+            <hr>
+        </div>
+        <div class="row ">
+            <div class="sanpham__lienket">
+                <div class=" col-sm-6 col-md-3 sanpham__lienket__hover">
+                    <div class="img__sanpham__lienquan">
+                        <a href="#" title="...">
+                            <img class="img-after" src="https://360boutique.vn/wp-content/uploads/2019/08/SMDTK127-1-2-480x635.jpg" alt="#" width="100%">
+                            <img class="img-befor" src="./anh/splk1.jpg" alt="..." width="100%">
+                        </a>
+                    </div>
+                    <div class="name__sanpham">
+                        <h2>
+                            <a href="#" title="...">ÁO SƠ MI NAM SMDTK127</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-md-3 sanpham__lienket__hover">
+                    <div class="img__sanpham__lienquan">
+                        <a href="#" title="...">
+                            <img class="img-after" src="https://360boutique.vn/wp-content/uploads/2018/11/SX01-3-1-Copy-480x635.jpg" alt="#" width="100%">
+                            <img class="img-befor" src="./anh/splk2.jpg" alt="" width="100%">
+                        </a>
+                    </div>
+                    <div class="name__sanpham">
+                        <h2>
+                            <a href="#" title="...">ÁO SƠ MI NAM SMDTK127</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-md-3 sanpham__lienket__hover">
+                    <div class="img__sanpham__lienquan">
+                        <a href="#" title="...">
+                            <img class="img-after" src="https://360boutique.vn/wp-content/uploads/2018/12/ANTK003-1-480x635.jpg" alt="#" width="100%">
+                            <img class="img-befor" src="./anh/splk3.jpg" alt="" width="100%">
+                        </a>
+                    </div>
+                    <div class="name__sanpham">
+                        <h2>
+                            <a href="#" title="...">ÁO SƠ MI NAM SMDTK127</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-md-3 sanpham__lienket__hover">
+                    <div class="img__sanpham__lienquan">
+                        <a href="#" title="...">
+                            <img class="img-after" src="https://360boutique.vn/wp-content/uploads/2019/07/APH615-2-480x635.jpg" alt="#" width="100%">
+                            <img class="img-befor" src="./anh/splk4.jpg" alt="" width="100%">
+                        </a>
+                    </div>
+                    <div class="name__sanpham">
+                        <h2>
+                            <a href="#" title="...">ÁO SƠ MI NAM SMDTK127</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+
+  <footer class="footer__page__chung">
+    <div class=" container">
+      <div class="row justify-content-between">
+        <div class="col-md-4 col-12">
+          <div class="footer__item">
+            <h3>HỆ THỒNG CỦA HÀNG</h3>
+            <div class="menu-he-thong">
+              <ul>
+                <li>
+                  <a href="./he_thong_cua_hang.html" title="...">242 Thái Hà -HN</a>
+                </li>
+                <li>
+                  <a href="./he_thong_cua_hang.html" title="...">20 Dương Quảng Hàm – HN</a>
+                </li>
+                <li>
+                  <a href="./he_thong_cua_hang.html" title="...">11 Dương Quảng Hàm – HN</a>
+                </li>
+                <li>
+                  <a href="./he_thong_cua_hang.html" title="...">63 Đại Cổ Việt – HN</a>
+                </li>
+                <li>
+                  <a href="./he_thong_cua_hang.html" title="...">16 Kim Mã – HN</a>
+                </li>
+                <li>
+                  <a href="./he_thong_cua_hang.html" title="...">296 Nguyễn Trãi – HN</a>
+                </li>
+                <li>
+                  <a href="./he_thong_cua_hang.html" title="...">116 Hồ Tùng Mậu – HN</a>
+                </li>
+                <li>
+                  <a href="./he_thong_cua_hang.html" title="...">272 Tô Hiệu – HP</a>
+                </li>
+                <li>
+                  <a href="./he_thong_cua_hang.html" title="...">252 Hồ Tùng Mậu – 360Kids</a>
+                </li>
+                <li>
+                  <a href="./he_thong_cua_hang.html" title="...">37 Trung Kính – 36Kids</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="footer__item">
+            <h3>CHÍNH SÁCH VÀ QUY ĐỊNH CHUNG</h3>
+            <div class="menu-chinh-sach">
+              <ul>
+                <li>
+                  <a href="#" title="...">Hướng dẫn mua hàng</a>
+                </li>
+                <li>
+                  <a href="#" title="...">Hình thức thanh toán</a>
+                </li>
+                <li>
+                  <a href="#" title="...">Quy định về bảo mật thông tin</a>
+                </li>
+                <li>
+                  <a href="#" title="...">Chính sách và quy trình xử lý khiếu nại</a>
+                </li>
+                <li>
+                  <a href="#" title="...">Chính sách bảo hành</a>
+                </li>
+                <li>
+                  <a href="#" title="...">Chính sách đổi trả hàng</a>
+                </li>
+                <li>
+                  <a href="#" title="...">Chính sách vận chuyển</a>
+                </li>
+                <li>
+                  <a href="#" title="...">Giới thiệu</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="footer__item">
+            <h3>ĐỊA CHỈ</h3>
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-dia-chi" src="./anh/footer1.png" alt="...">
+              </div>
+              <div class=" col-md-9 menu-dia-chi">
+                <p>
+                  <strong>CÔNG TY CỔ PHẦN THỜI TRANG 360</strong>
+                </p>
+                <p>VPGD:&nbsp;37 Trung Kính - Trung Hòa - Cầu Giấy - Hà Nội</p>
+                <p>Điện thoại: (024) 2 0219 555</p>
+                <p>Hotline: 0973 285 886</p>
+                <p>Email: 360boutique.vn@gmail.com</p>
+                <p>Website: <a href="./360.html" title="...">https://360boutique.vn/</a></p>
+                <div>
+                  <a href="#" title="...">
+                    <img src="./anh/footer.png" alt="..." width="70%">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

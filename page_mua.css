@@ -1,0 +1,195 @@
+
+.page__mua__title{
+    padding: 20px 0 10px 0;
+}
+
+.img__mua__show{
+    overflow:auto;
+}
+.img__mua__small{
+    display: flex;
+    flex-direction: row;
+    padding:0 15px;
+    margin-top: 15px;
+    width: 100%;
+}
+.img__small{
+    width: calc(100% /3 );
+    cursor: pointer;
+}
+.infor__mua h1{
+    font-size:25px ;
+}
+.price{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.price span:last-child{
+    color: red;
+}
+.tinhtrang{
+    font-size: 20px;
+}
+.tinhtrang span:last-child{
+    color: green;
+}
+.hotro{
+    background: #0075FF url(https://360boutique.vn/wp-content/plugins/wp-facebook-messenger/frontend/images/facebook-messenger.svg) 15px center no-repeat;
+    background-size: auto 55%;
+    padding: 8px 15px;
+    color: #fff!important;
+    border-radius: 3px;
+    padding-left: 40px;
+    display: inline-block;
+    margin-top: 5px;}
+.co{
+    margin-top: 15px;
+}
+.value{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: black 1px solid;
+    opacity: .5;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    background-color: #f6f6f6;
+    line-height: 25px;
+    margin-left: 15px;
+}
+.selected__co{
+    box-shadow: 0 0 5px;
+    border-color: #999;
+    opacity: 1;
+}
+.mau{
+    margin-top: 15px;
+}
+.mau .value {
+    text-indent: -9999px;
+    border: #ccc 2px solid;
+}
+.mau .value:first-child{
+    background-color: white;
+}
+.mau .value:nth-child(3){
+    background-color: blue;
+}
+.mau .value:nth-child(4){
+    background-color: black;
+}
+.mau .value:last-child{
+    background-color: blueviolet;
+}
+.selected__mau{
+    box-shadow: 0 0 5px;
+    border: black 2px solid !important;
+    opacity: 1;
+}
+.mua__hang{
+    margin-top: 15px;
+}
+.input__sl{
+    font-size: 20px;
+    height: 45px;
+    width: 50px;
+    text-align: center;
+}
+.mua__hang button{
+    width: 107px;
+    height: 45px;
+    padding-top: 5px;
+    background-color: white;
+    border-color: black;
+    font-weight: bold;
+}
+.mua__hang button:hover{
+    border-color: #ff8c00;
+    color: #ff8c00;
+}
+.infor__sanpham{
+    display: flex;
+    margin-top: 15px;
+}
+.infor__sanpham__find{
+    width: 30%;
+}
+.infor__sanpham__find ul{
+    border-width: 1px 0 1px 1px;
+    border-color: #d3d3d3;
+    border-style: solid;
+}
+.infor__chung:first-child{
+    border: none;
+}
+.infor__chung{
+    font-weight: bold;
+    padding: 10px 5px 10px 25px;
+    border-top:#d3d3d3 1px solid ;
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+}
+.infor__chung:hover{
+    color: #ff8c00;
+    border-left: #ff8c00 8px solid;
+    transition: all .5s ease;
+}
+.infor__sanpham__content{
+    width: 70%;
+    border-width: 1px 1px 1px 1px;
+    border-color: #d3d3d3;
+    border-style: solid;
+    padding: 20px 20px 20px 20px;
+}
+.infor__sanpham__content div{
+    line-height: 30px;
+}
+.infor__sanpham__content div:not(.active){
+    display: none;
+}
+.tittle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.danhgia label{
+    display: block;
+}
+.danhgia button{
+    width: 80px;
+    background-color: white;
+    border-color: black;
+}
+.danhgia button:hover{
+    border-color: #ff8c00;
+    color: #ff8c00;
+}
+
+.sanpham__lienquan{
+    margin-top: 30px;
+    text-align: center;
+}
+.sanpham__lienket{
+    display: flex;
+}
+.img__sanpham__lienquan{
+    margin-top: 8px;
+    position: relative;
+}
+.img-befor{
+    position: absolute;
+    left: 0;
+    opacity: 0;    
+}
+.sanpham__lienket__hover:hover .img-befor {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+.name__sanpham{
+    text-align: center;
+}
+.name__sanpham h2 a{
+    font-size: 15px;
+    font-weight: bold;
+}
